@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PokéAPI Nemesis</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M1 8a7 7 0 0 1 14 0z' fill='%23e03030'/%3E%3Cpath d='M1 8a7 7 0 0 0 14 0z' fill='%23f8f8f8'/%3E%3Crect x='1' y='7.3' width='14' height='1.4' fill='%23202020'/%3E%3Ccircle cx='8' cy='8' r='2.2' fill='%23202020'/%3E%3Ccircle cx='8' cy='8' r='1.1' fill='%23fff'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="app">
+    <main id="game-wrap">
+      <canvas id="game" width="480" height="320"></canvas>
+      <div id="banner" class="hidden"></div>
+      <div id="dialog" class="hidden"><div id="dialog-text"></div><div id="dialog-arrow">▼</div></div>
+      <div id="menu-layer"></div>
+      <div id="toast-layer"></div>
+    </main>
+    <aside id="brain"></aside>
+    <footer id="controls">
+      <span><b>ARROWS / WASD</b> move</span>
+      <span><b>Z / ENTER / SPACE</b> confirm</span>
+      <span><b>X / ESC</b> back</span>
+      <span><b>M</b> menu</span>
+    </footer>
+  </div>
+
+  <script src="js/config.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/typeChart.js"></script>
+  <script src="js/fallback.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/sfx.js"></script>
+  <script src="js/input.js"></script>
+  <script src="js/pokemon.js"></script>
+  <script src="js/ai/patternLearner.js"></script>
+  <script src="js/ai/enemyAI.js"></script>
+  <script src="js/battle.js"></script>
+  <script src="js/ui/ui.js"></script>
+  <script src="js/ui/battleScene.js"></script>
+  <script src="js/ui/brainPanel.js"></script>
+  <script src="js/world/world.js"></script>
+  <script src="js/world/overworld.js"></script>
+  <script src="js/game.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
