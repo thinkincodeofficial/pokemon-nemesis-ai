@@ -6,7 +6,7 @@ The enemy AI, **NEMESIS**, watches every battle you fight. It predicts your next
 
 Every Pokémon, move, sprite, cry, Pokédex entry, evolution chain and the type chart is loaded live from [PokéAPI](https://pokeapi.co).
 
-Made for the YouTube video **"I Gave My Pokémon Game an AI That Learns to Beat Me"**: [VIDEO LINK]
+Made for the YouTube video **"I Gave My Pokémon Game an AI That Learns to Beat Me"**: [VIDEO LINK](https://youtu.be/FSC3cY4YClo)
 
 ![NEMESIS predicting a heal at 86% before the player opens the bag](docs/screenshots/heal-predicted.png)
 
